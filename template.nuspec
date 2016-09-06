@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>pparker</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package description</description>
+	<references>
+		$references$
+	</references>
+  </metadata>
+  <files>
+	<file src="sdk\bin\$configuration$\*.*" target="lib" exclude="**\*.pdb" />
+	<file src="$id$.targets" target="build" />
+  </files>
+</package>
